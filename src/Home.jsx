@@ -17,9 +17,14 @@ const Home = () => {
                   </h2>
 
                   <div className="mt-3 ml-0">
-                    <NavLink to="/" className="btn btn-primary">
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSeiqdAcWctnZFoHw01jIIO5oIEXVW2_Q5bdI8wd9dA2kQVwnA/viewform"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-primary"
+                    >
                       Make An Appointment
-                    </NavLink>
+                    </a>
                   </div>
 
                   <div className="mt-4 d-flex">
