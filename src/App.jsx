@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Navbar from "./Navbar";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
       </Switch>
+      <MessengerCustomerChat
+        pageId="340896850003825"
+        appId="1054812141624292"
+      />
     </>
   );
 };
